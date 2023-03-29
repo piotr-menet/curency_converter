@@ -1,0 +1,32 @@
+.form__button {
+  color: #f7f8fa;
+  background-color: #6b97da;
+  width: 75%;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.form__headerText {
+  color: #6b97da;
+  padding-bottom: 30px;
+}
+
+.form__labelText {
+  text-align: left;
+  width: 150px;
+  display: inline-block;
+}
+
+.form__paragraph {
+  text-align: left;
+}
+
+.form__field {
+  border: 1px solid #ccc;
+  padding: 5px;
+  max-width: 350px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f7f8fa;
+}
