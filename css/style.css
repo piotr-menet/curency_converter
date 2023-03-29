@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Lato", sans-serif;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container {
+  text-align: center;
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: rgb(235, 235, 245);
+  border: 1px solid #054491;
+  border-radius: 5px;
+}
+
+.origin {
+  color: hsl(240, 2%, 37%);
+  font-size: 80%;
+  text-align: center;
+}

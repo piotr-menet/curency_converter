@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>curency converter</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/script.js"></script>
+  </head>
+
+  <body class="body">
+    <div class="container">
+      <form class="js-form form" action="/index.html" method="get">
+        <h1 class="form__headerText">Kalkulator walutowy</h1>
+        <p class="form__paragraph">
+          <label>
+            <span class="form__labelText"> Kwota w zł*: </span>
+
+            <input
+              class="js-amount form__field"
+              name="amount"
+              step="0.1"
+              min="0.1"
+              placeholder="wpisz kwote do zamiany"
+              autofocus
+              type="number"
+            />
+          </label>
+        </p>
+        <p class="form__paragraph">
+          <label>
+            <span class="form__labelText"> Wybierz walute: </span>
+
+            <select class="js-currency form__field" name="curency">
+              <option value="American Dolar">USD</option>
+              <option value="Euro">EUR</option>
+              <option value="British Pound">GBP</option>
+            </select>
+          </label>
+        </p>
+
+        <button class="form__button">Przelicz</button>
+
+        <p class="js-result"></p>
+      </form>
+    </div>
+
+    <p class="origin">Testowy kursy walut z dnia 17 Marca 2023</p>
+  </body>
+</html>
