@@ -1,4 +1,5 @@
 
+{
 const amountElement = document.querySelector(".js-amount");
 const formElement = document.querySelector(".js-form");
 const currencyElement = document.querySelector(".js-currency");
@@ -50,5 +51,7 @@ function formatResult(amount, result, currency) {
 }
 
 function setResultElementHTML(html) {
-  resultElement.innerHTML = html;
+  resultElement.innerHTML = html; 
+  
+}
 }
